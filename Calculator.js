@@ -14,7 +14,7 @@ class button{
 		ctx.fillText(this.t, this.x,this.y+48,this.w)
 	}
 }
-let canv = document.getElementById('canva')
+let canv = document.getElementById('canvas')
 	ctx=canv.getContext("2d")
 	buttons=[]
 	text=""
